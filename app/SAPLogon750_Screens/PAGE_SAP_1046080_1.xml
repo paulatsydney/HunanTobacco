@@ -1,0 +1,1785 @@
+﻿<PAGE Techno="SAPGUI" Name="PAGE_SAP_1046080_1" ProcessName="SAPLOGON.EXE" ParamName="SAP" ParentTree="wnd[0]">
+	<PROPERTIES>
+		<Text>SAP</Text>
+		<Type>GuiMainWindow</Type>
+		<Name>wnd[0]</Name>
+		<Changeable>true</Changeable>
+		<ContainerType>true</ContainerType>
+		<Deepness>0</Deepness>
+		<TAG>GuiMainWindow</TAG>
+		<X>-8</X>
+		<Y>-8</Y>
+		<CX>1936</CX>
+		<CY>1056</CY>
+		<EXE>SAPLOGON.EXE</EXE>
+	</PROPERTIES>
+	<CHILDREN>
+		<ITEM>
+			<PROPERTIES>
+				<Text>SAP</Text>
+				<Type>GuiMainWindow</Type>
+				<Name>wnd[0]</Name>
+				<Changeable>true</Changeable>
+				<ContainerType>true</ContainerType>
+				<Deepness>0</Deepness>
+				<TAG>GuiMainWindow</TAG>
+				<X>-8</X>
+				<Y>-8</Y>
+				<CX>1936</CX>
+				<CY>1056</CY>
+				<EXE>SAPLOGON.EXE</EXE>
+			</PROPERTIES>
+			<CTX_PROPS>
+				<BOUNDINGRECT>0|0|1936|1056</BOUNDINGRECT>
+				<TITLE>GuiMainWindow - SAP</TITLE>
+				<NAMEKEY>Name</NAMEKEY>
+				<CONTROLTYPE>GuiMainWindow</CONTROLTYPE>
+				<PREFIX />
+				<TEXT>SAP</TEXT>
+				<TEXTKEY>Text</TEXTKEY>
+				<PARAMNAME>SAP</PARAMNAME>
+				<PARENTTREE>wnd[0]</PARENTTREE>
+				<ISVISIBLE>True</ISVISIBLE>
+				<ISPREFERRED>False</ISPREFERRED>
+			</CTX_PROPS>
+			<CHILDREN>
+				<ITEM>
+					<PROPERTIES>
+						<Id>mbar</Id>
+						<Type>GuiMenubar</Type>
+						<Name>mbar</Name>
+						<Changeable>false</Changeable>
+						<ContainerType>true</ContainerType>
+						<Deepness>1</Deepness>
+						<TAG>GuiMenubar</TAG>
+						<X>20</X>
+						<Y>6</Y>
+						<CX>1900</CX>
+						<CY>18</CY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>28|14|1900|18</BOUNDINGRECT>
+						<TITLE>GuiMenubar</TITLE>
+						<NAMEKEY>Name</NAMEKEY>
+						<CONTROLTYPE>GuiMenubar</CONTROLTYPE>
+						<PREFIX />
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME>GuiMenubar</PARAMNAME>
+						<PARENTTREE>mbar|wnd[0]</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+						<ISPREFERRED>False</ISPREFERRED>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<Id>mbar/menu[0]</Id>
+								<Text>User</Text>
+								<Type>GuiMenu</Type>
+								<Name>User</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>true</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiMenu</TAG>
+								<X>-1</X>
+								<Y>-1</Y>
+								<CX>-1</CX>
+								<CY>-1</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+								<TITLE>GuiMenu - User</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>User</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>User</PARAMNAME>
+								<PARENTTREE>User|mbar|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+							<CHILDREN>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[0]/menu[0]</Id>
+										<Text>Log on</Text>
+										<Type>GuiMenu</Type>
+										<Name>Log on</Name>
+										<Changeable>true</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Log on</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Log on</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Log on</PARAMNAME>
+										<PARENTTREE>Log on|User|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[0]/menu[1]</Id>
+										<Text>New password</Text>
+										<Type>GuiMenu</Type>
+										<Name>New password</Name>
+										<Changeable>true</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - New password</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>New password</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>New password</PARAMNAME>
+										<PARENTTREE>New password|User|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[0]/menu[2]</Id>
+										<Text>Log off</Text>
+										<Type>GuiMenu</Type>
+										<Name>Log off</Name>
+										<Changeable>true</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Log off</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Log off</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Log off</PARAMNAME>
+										<PARENTTREE>Log off|User|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+							</CHILDREN>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>mbar/menu[1]</Id>
+								<Text>System</Text>
+								<Type>GuiMenu</Type>
+								<Name>System</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>true</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiMenu</TAG>
+								<X>-1</X>
+								<Y>-1</Y>
+								<CX>-1</CX>
+								<CY>-1</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+								<TITLE>GuiMenu - System</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>System</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>System</PARAMNAME>
+								<PARENTTREE>System|mbar|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+							<CHILDREN>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[0]</Id>
+										<Text>New GUI Window</Text>
+										<Type>GuiMenu</Type>
+										<Name>New GUI Window</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - New GUI Window</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>New GUI Window</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>New GUI Window</PARAMNAME>
+										<PARENTTREE>New GUI Window|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[1]</Id>
+										<Text>Close GUI Window</Text>
+										<Type>GuiMenu</Type>
+										<Name>Close GUI Window</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Close GUI Window</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Close GUI Window</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Close GUI Window</PARAMNAME>
+										<PARENTTREE>Close GUI Window|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[2]</Id>
+										<Text>User Profile</Text>
+										<Type>GuiMenu</Type>
+										<Name>User Profile</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - User Profile</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>User Profile</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>User Profile</PARAMNAME>
+										<PARENTTREE>User Profile|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+									<CHILDREN>
+										<ITEM>
+											<PROPERTIES>
+												<Id>mbar/menu[1]/menu[2]/menu[0]</Id>
+												<Text>Hold Data</Text>
+												<Type>GuiMenu</Type>
+												<Name>Hold Data</Name>
+												<Changeable>false</Changeable>
+												<ContainerType>true</ContainerType>
+												<Deepness>4</Deepness>
+												<TAG>GuiMenu</TAG>
+												<X>-1</X>
+												<Y>-1</Y>
+												<CX>-1</CX>
+												<CY>-1</CY>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+												<TITLE>GuiMenu - Hold Data</TITLE>
+												<NAMEKEY>Name</NAMEKEY>
+												<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Hold Data</TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME>Hold Data</PARAMNAME>
+												<PARENTTREE>Hold Data|User Profile|System|mbar|wnd[0]</PARENTTREE>
+												<ISVISIBLE>True</ISVISIBLE>
+												<ISPREFERRED>False</ISPREFERRED>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<Id>mbar/menu[1]/menu[2]/menu[1]</Id>
+												<Text>Set Data</Text>
+												<Type>GuiMenu</Type>
+												<Name>Set Data</Name>
+												<Changeable>false</Changeable>
+												<ContainerType>true</ContainerType>
+												<Deepness>4</Deepness>
+												<TAG>GuiMenu</TAG>
+												<X>-1</X>
+												<Y>-1</Y>
+												<CX>-1</CX>
+												<CY>-1</CY>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+												<TITLE>GuiMenu - Set Data</TITLE>
+												<NAMEKEY>Name</NAMEKEY>
+												<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Set Data</TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME>Set Data</PARAMNAME>
+												<PARENTTREE>Set Data|User Profile|System|mbar|wnd[0]</PARENTTREE>
+												<ISVISIBLE>True</ISVISIBLE>
+												<ISPREFERRED>False</ISPREFERRED>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<Id>mbar/menu[1]/menu[2]/menu[2]</Id>
+												<Text>Delete Data</Text>
+												<Type>GuiMenu</Type>
+												<Name>Delete Data</Name>
+												<Changeable>false</Changeable>
+												<ContainerType>true</ContainerType>
+												<Deepness>4</Deepness>
+												<TAG>GuiMenu</TAG>
+												<X>-1</X>
+												<Y>-1</Y>
+												<CX>-1</CX>
+												<CY>-1</CY>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+												<TITLE>GuiMenu - Delete Data</TITLE>
+												<NAMEKEY>Name</NAMEKEY>
+												<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Delete Data</TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME>Delete Data</PARAMNAME>
+												<PARENTTREE>Delete Data|User Profile|System|mbar|wnd[0]</PARENTTREE>
+												<ISVISIBLE>True</ISVISIBLE>
+												<ISPREFERRED>False</ISPREFERRED>
+											</CTX_PROPS>
+										</ITEM>
+									</CHILDREN>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[3]</Id>
+										<Text>Services</Text>
+										<Type>GuiMenu</Type>
+										<Name>Services</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Services</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Services</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Services</PARAMNAME>
+										<PARENTTREE>Services|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[4]</Id>
+										<Text>Utilities</Text>
+										<Type>GuiMenu</Type>
+										<Name>Utilities</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Utilities</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Utilities</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Utilities</PARAMNAME>
+										<PARENTTREE>Utilities|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[5]</Id>
+										<Text>List</Text>
+										<Type>GuiMenu</Type>
+										<Name>List</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - List</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>List</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>List</PARAMNAME>
+										<PARENTTREE>List|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[6]</Id>
+										<Text>Services for Object</Text>
+										<Type>GuiMenu</Type>
+										<Name>Services for Object</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Services for Object</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Services for Object</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Services for Object</PARAMNAME>
+										<PARENTTREE>Services for Object|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[7]</Id>
+										<Text>My Objects</Text>
+										<Type>GuiMenu</Type>
+										<Name>My Objects</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - My Objects</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>My Objects</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>My Objects</PARAMNAME>
+										<PARENTTREE>My Objects|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[8]</Id>
+										<Text>Own Spool Requests</Text>
+										<Type>GuiMenu</Type>
+										<Name>Own Spool Requests</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Own Spool Requests</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Own Spool Requests</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Own Spool Requests</PARAMNAME>
+										<PARENTTREE>Own Spool Requests|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[9]</Id>
+										<Text>Own Jobs</Text>
+										<Type>GuiMenu</Type>
+										<Name>Own Jobs</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Own Jobs</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Own Jobs</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Own Jobs</PARAMNAME>
+										<PARENTTREE>Own Jobs|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[10]</Id>
+										<Text>Short Message</Text>
+										<Type>GuiMenu</Type>
+										<Name>Short Message</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Short Message</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Short Message</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Short Message</PARAMNAME>
+										<PARENTTREE>Short Message|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[11]</Id>
+										<Text>Status...</Text>
+										<Type>GuiMenu</Type>
+										<Name>Status...</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Status...</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Status...</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Status...</PARAMNAME>
+										<PARENTTREE>Status...|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>mbar/menu[1]/menu[12]</Id>
+										<Text>Log off</Text>
+										<Type>GuiMenu</Type>
+										<Name>Log off</Name>
+										<Changeable>true</Changeable>
+										<ContainerType>true</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiMenu</TAG>
+										<X>-1</X>
+										<Y>-1</Y>
+										<CX>-1</CX>
+										<CY>-1</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+										<TITLE>GuiMenu - Log off</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Log off</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Log off</PARAMNAME>
+										<PARENTTREE>Log off|System|mbar|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+							</CHILDREN>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>mbar/menu[2]</Id>
+								<Text>Help</Text>
+								<Type>GuiMenu</Type>
+								<Name>Help</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>true</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiMenu</TAG>
+								<X>-1</X>
+								<Y>-1</Y>
+								<CX>-1</CX>
+								<CY>-1</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>7|7|-1|-1</BOUNDINGRECT>
+								<TITLE>GuiMenu - Help</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiMenu</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>Help</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Help</PARAMNAME>
+								<PARENTTREE>Help|mbar|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<Id>tbar[0]</Id>
+						<Type>GuiToolbar</Type>
+						<Name>tbar[0]</Name>
+						<Changeable>true</Changeable>
+						<ContainerType>true</ContainerType>
+						<Deepness>1</Deepness>
+						<TAG>GuiToolbar</TAG>
+						<X>8</X>
+						<Y>32</Y>
+						<CX>0</CX>
+						<CY>0</CY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>16|40|0|0</BOUNDINGRECT>
+						<TITLE>GuiToolbar</TITLE>
+						<NAMEKEY>Name</NAMEKEY>
+						<CONTROLTYPE>GuiToolbar</CONTROLTYPE>
+						<PREFIX>tb</PREFIX>
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME>GuiToolbar</PARAMNAME>
+						<PARENTTREE>tbar[0]|wnd[0]</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+						<ISPREFERRED>False</ISPREFERRED>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<Id>tbar[0]/btn[15]</Id>
+								<Text>Exit</Text>
+								<Type>GuiButton</Type>
+								<IconName>2</IconName>
+								<Name>btn[15]</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiButton</TAG>
+								<X>1856</X>
+								<Y>91</Y>
+								<CX>32</CX>
+								<CY>26</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>1864|99|32|26</BOUNDINGRECT>
+								<TITLE>GuiButton - Exit</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiButton</CONTROLTYPE>
+								<PREFIX>bt</PREFIX>
+								<TEXT>Exit</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Exit</PARAMNAME>
+								<PARENTTREE>btn[15]|tbar[0]|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>tbar[0]/okcd</Id>
+								<Type>GuiOkCodeField</Type>
+								<Name>okcd</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiOkCodeField</TAG>
+								<X>32</X>
+								<Y>91</Y>
+								<CX>156</CX>
+								<CY>26</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>40|99|156|26</BOUNDINGRECT>
+								<TITLE>GuiOkCodeField</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiOkCodeField</CONTROLTYPE>
+								<PREFIX />
+								<TEXT />
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>GuiOkCodeField</PARAMNAME>
+								<PARENTTREE>okcd|tbar[0]|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<Id>titl</Id>
+						<Text>SAP</Text>
+						<Type>GuiTitlebar</Type>
+						<Name>titl</Name>
+						<ContainerType>true</ContainerType>
+						<Deepness>1</Deepness>
+						<TAG>GuiTitlebar</TAG>
+						<X>8</X>
+						<Y>32</Y>
+						<CX>1904</CX>
+						<CY>48</CY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>16|40|1904|48</BOUNDINGRECT>
+						<TITLE>GuiTitlebar - SAP</TITLE>
+						<NAMEKEY>Name</NAMEKEY>
+						<CONTROLTYPE>GuiTitlebar</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>SAP</TEXT>
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME>SAP</PARAMNAME>
+						<PARENTTREE>titl|wnd[0]</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+						<ISPREFERRED>False</ISPREFERRED>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<Id>tbar[1]</Id>
+						<Type>GuiToolbar</Type>
+						<Name>tbar[1]</Name>
+						<Changeable>true</Changeable>
+						<ContainerType>true</ContainerType>
+						<Deepness>1</Deepness>
+						<TAG>GuiToolbar</TAG>
+						<X>8</X>
+						<Y>80</Y>
+						<CX>1904</CX>
+						<CY>48</CY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>16|88|1904|48</BOUNDINGRECT>
+						<TITLE>GuiToolbar</TITLE>
+						<NAMEKEY>Name</NAMEKEY>
+						<CONTROLTYPE>GuiToolbar</CONTROLTYPE>
+						<PREFIX>tb</PREFIX>
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME>GuiToolbar</PARAMNAME>
+						<PARENTTREE>tbar[1]|wnd[0]</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+						<ISPREFERRED>False</ISPREFERRED>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<Id>tbar[1]/btnvhmore</Id>
+								<Text>More</Text>
+								<Type>GuiButton</Type>
+								<Name>btnvhmore</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiButton</TAG>
+								<X>320</X>
+								<Y>91</Y>
+								<CX>57</CX>
+								<CY>26</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>328|99|57|26</BOUNDINGRECT>
+								<TITLE>GuiButton - More</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiButton</CONTROLTYPE>
+								<PREFIX>bt</PREFIX>
+								<TEXT>More</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>More</PARAMNAME>
+								<PARENTTREE>btnvhmore|tbar[1]|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>tbar[1]/btn[5]</Id>
+								<Text>New password</Text>
+								<Type>GuiButton</Type>
+								<Name>btn[5]</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiButton</TAG>
+								<X>204</X>
+								<Y>91</Y>
+								<CX>100</CX>
+								<CY>26</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>212|99|100|26</BOUNDINGRECT>
+								<TITLE>GuiButton - New password</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiButton</CONTROLTYPE>
+								<PREFIX>bt</PREFIX>
+								<TEXT>New password</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>New password</PARAMNAME>
+								<PARENTTREE>btn[5]|tbar[1]|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<Id>usr</Id>
+						<Type>GuiUserArea</Type>
+						<Name>usr</Name>
+						<Changeable>true</Changeable>
+						<ContainerType>true</ContainerType>
+						<Deepness>1</Deepness>
+						<TAG>GuiUserArea</TAG>
+						<X>8</X>
+						<Y>128</Y>
+						<CX>1904</CX>
+						<CY>859</CY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>16|136|1904|859</BOUNDINGRECT>
+						<TITLE>GuiUserArea</TITLE>
+						<NAMEKEY>Name</NAMEKEY>
+						<CONTROLTYPE>GuiUserArea</CONTROLTYPE>
+						<PREFIX />
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME>GuiUserArea</PARAMNAME>
+						<PARENTTREE>usr|wnd[0]</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+						<ISPREFERRED>False</ISPREFERRED>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/lblRSYST-MANDT</Id>
+								<Text>Client</Text>
+								<Type>GuiLabel</Type>
+								<Name>RSYST-MANDT</Name>
+								<Changeable>false</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiLabel</TAG>
+								<X>22</X>
+								<Y>148</Y>
+								<CX>189</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>30|156|189|25</BOUNDINGRECT>
+								<TITLE>GuiLabel - Client</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiLabel</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>Client</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Client</PARAMNAME>
+								<PARENTTREE>RSYST-MANDT|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/txtRSYST-MANDT</Id>
+								<Text>002</Text>
+								<Type>GuiTextField</Type>
+								<LeftLabel>Client</LeftLabel>
+								<Name>RSYST-MANDT</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiTextField</TAG>
+								<X>212</X>
+								<Y>148</Y>
+								<CX>39</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>220|156|39|25</BOUNDINGRECT>
+								<TITLE>GuiTextField - 002</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+								<PREFIX>ed</PREFIX>
+								<TEXT>002</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Client</PARAMNAME>
+								<PARENTTREE>RSYST-MANDT|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/boxMESSAGE_FRAME</Id>
+								<Text>Information</Text>
+								<Type>GuiBox</Type>
+								<Name>MESSAGE_FRAME</Name>
+								<Changeable>false</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiBox</TAG>
+								<X>362</X>
+								<Y>145</Y>
+								<CX>569</CX>
+								<CY>591</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>370|153|569|591</BOUNDINGRECT>
+								<TITLE>GuiBox - Information</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiBox</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>Information</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Information</PARAMNAME>
+								<PARENTTREE>MESSAGE_FRAME|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/sub:SAPMSYST:0020</Id>
+								<Type>GuiSimpleContainer</Type>
+								<Name>:SAPMSYST:0020</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>true</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiSimpleContainer</TAG>
+								<X>372</X>
+								<Y>177</Y>
+								<CX>549</CX>
+								<CY>675</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>380|185|549|675</BOUNDINGRECT>
+								<TITLE>GuiSimpleContainer</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiSimpleContainer</CONTROLTYPE>
+								<PREFIX />
+								<TEXT />
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>GuiSimpleContainer</PARAMNAME>
+								<PARENTTREE>:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+							<CHILDREN>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[0,0]</Id>
+										<Text>QKX - S/4 Hana OP1809 Main Test Core</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>180</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|188|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField - QKX - S/4 Hana OP1809 Main Test Core</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT>QKX - S/4 Hana OP1809 Main Test Core</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>QKX - S/4 Hana OP1809 Main Test Core</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[1,0]</Id>
+										<Type>GuiTextField</Type>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>212</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|220|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT />
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>GuiTextField</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[2,0]</Id>
+										<Text>Clients available:</Text>
+										<Type>GuiTextField</Type>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>244</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|252|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField - Clients available:</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT>Clients available:</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>Clients available:</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[3,0]</Id>
+										<Text> 002 : Additional Manual Test</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>276</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|284|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  002 : Additional Manual Test</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 002 : Additional Manual Test</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 002 : Additional Manual Test</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[4,0]</Id>
+										<Text> 005 : Cross-client customizing and local development</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>308</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|316|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  005 : Cross-client customizing and local development</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 005 : Cross-client customizing and local development</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 005 : Cross-client customizing and local development</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[5,0]</Id>
+										<Text> 006 : eCATT</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>340</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|348|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  006 : eCATT</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 006 : eCATT</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 006 : eCATT</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[6,0]</Id>
+										<Text> 014: OP1809 Main Test Core</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>372</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|380|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  014: OP1809 Main Test Core</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 014: OP1809 Main Test Core</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 014: OP1809 Main Test Core</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[7,0]</Id>
+										<Text> 026 : eCATT</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>404</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|412|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  026 : eCATT</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 026 : eCATT</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 026 : eCATT</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[8,0]</Id>
+										<Text> 079: 1809OP ContentMaintClient</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>436</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|444|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  079: 1809OP ContentMaintClient</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 079: 1809OP ContentMaintClient</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 079: 1809OP ContentMaintClient</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[9,0]</Id>
+										<Text> 101 : Batch on Plnt-TargetMode</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>468</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|476|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  101 : Batch on Plnt-TargetMode</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 101 : Batch on Plnt-TargetMode</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 101 : Batch on Plnt-TargetMode</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[10,0]</Id>
+										<Text> 102 : Batch on Plnt-Comp.Mode</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>500</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|508|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  102 : Batch on Plnt-Comp.Mode</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 102 : Batch on Plnt-Comp.Mode</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 102 : Batch on Plnt-Comp.Mode</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[11,0]</Id>
+										<Text> 131: Decentral S4-EWM Integration</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>532</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|540|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  131: Decentral S4-EWM Integration</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 131: Decentral S4-EWM Integration</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 131: Decentral S4-EWM Integration</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[12,0]</Id>
+										<Text> 200: OP1809 Golden Master clnt</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>564</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|572|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  200: OP1809 Golden Master clnt</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 200: OP1809 Golden Master clnt</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 200: OP1809 Golden Master clnt</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[13,0]</Id>
+										<Text> 241: OP1809FitSatMigrationTest</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>596</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|604|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  241: OP1809FitSatMigrationTest</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 241: OP1809FitSatMigrationTest</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 241: OP1809FitSatMigrationTest</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[14,0]</Id>
+										<Text> 242: OP1809FitSatMigrationTest</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>628</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|636|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  242: OP1809FitSatMigrationTest</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 242: OP1809FitSatMigrationTest</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 242: OP1809FitSatMigrationTest</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[15,0]</Id>
+										<Text> 260: OP1809 PI&lt;(&gt;&amp;&lt;)&gt;CPI IntegrtTest</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>660</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|668|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  260: OP1809 PI&lt;(&gt;&amp;&lt;)&gt;CPI IntegrtTest</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 260: OP1809 PI&lt;(&gt;&amp;&lt;)&gt;CPI IntegrtTest</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 260: OP1809 PI&lt;(&gt;&amp;&lt;)&gt;CPI IntegrtTest</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Id>usr/sub:SAPMSYST:0020/txtINFO_TAB-TDLINE[16,0]</Id>
+										<Text> 262: OP1809 PI&lt;(&gt;&amp;&lt;)&gt;CPI IntegrtTest</Text>
+										<Type>GuiTextField</Type>
+										<IconName>S_TL_G</IconName>
+										<Name>INFO_TAB-TDLINE</Name>
+										<Changeable>false</Changeable>
+										<ContainerType>false</ContainerType>
+										<Deepness>3</Deepness>
+										<TAG>GuiTextField</TAG>
+										<X>372</X>
+										<Y>692</Y>
+										<CX>549</CX>
+										<CY>25</CY>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>380|700|549|25</BOUNDINGRECT>
+										<TITLE>GuiTextField -  262: OP1809 PI&lt;(&gt;&amp;&lt;)&gt;CPI IntegrtTest</TITLE>
+										<NAMEKEY>Name</NAMEKEY>
+										<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+										<PREFIX>ed</PREFIX>
+										<TEXT> 262: OP1809 PI&lt;(&gt;&amp;&lt;)&gt;CPI IntegrtTest</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME> 262: OP1809 PI&lt;(&gt;&amp;&lt;)&gt;CPI IntegrtTest</PARAMNAME>
+										<PARENTTREE>INFO_TAB-TDLINE|:SAPMSYST:0020|usr|wnd[0]</PARENTTREE>
+										<ISVISIBLE>True</ISVISIBLE>
+										<ISPREFERRED>False</ISPREFERRED>
+									</CTX_PROPS>
+								</ITEM>
+							</CHILDREN>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/lblRSYST-BNAME</Id>
+								<Text>*User</Text>
+								<Type>GuiLabel</Type>
+								<Name>RSYST-BNAME</Name>
+								<Changeable>false</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiLabel</TAG>
+								<X>22</X>
+								<Y>212</Y>
+								<CX>189</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>30|220|189|25</BOUNDINGRECT>
+								<TITLE>GuiLabel - *User</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiLabel</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>*User</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>*User</PARAMNAME>
+								<PARENTTREE>RSYST-BNAME|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/txtRSYST-BNAME</Id>
+								<Type>GuiTextField</Type>
+								<LeftLabel>*User</LeftLabel>
+								<Name>RSYST-BNAME</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiTextField</TAG>
+								<X>212</X>
+								<Y>212</Y>
+								<CX>129</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>220|220|129|25</BOUNDINGRECT>
+								<TITLE>GuiTextField</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+								<PREFIX>ed</PREFIX>
+								<TEXT />
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>*User</PARAMNAME>
+								<PARENTTREE>RSYST-BNAME|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/lblRSYST-BCODE</Id>
+								<Text>*Password</Text>
+								<Type>GuiLabel</Type>
+								<Name>RSYST-BCODE</Name>
+								<Changeable>false</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiLabel</TAG>
+								<X>22</X>
+								<Y>244</Y>
+								<CX>189</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>30|252|189|25</BOUNDINGRECT>
+								<TITLE>GuiLabel - *Password</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiLabel</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>*Password</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>*Password</PARAMNAME>
+								<PARENTTREE>RSYST-BCODE|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/pwdRSYST-BCODE</Id>
+								<Type>GuiPasswordField</Type>
+								<LeftLabel>*Password</LeftLabel>
+								<Name>RSYST-BCODE</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiPasswordField</TAG>
+								<X>212</X>
+								<Y>244</Y>
+								<CX>129</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>220|252|129|25</BOUNDINGRECT>
+								<TITLE>GuiPasswordField</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiPasswordField</CONTROLTYPE>
+								<PREFIX />
+								<TEXT />
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>*Password</PARAMNAME>
+								<PARENTTREE>RSYST-BCODE|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/lblRSYST-LANGU</Id>
+								<Text>Logon Language</Text>
+								<Type>GuiLabel</Type>
+								<Name>RSYST-LANGU</Name>
+								<Changeable>false</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiLabel</TAG>
+								<X>22</X>
+								<Y>308</Y>
+								<CX>189</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>30|316|189|25</BOUNDINGRECT>
+								<TITLE>GuiLabel - Logon Language</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiLabel</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>Logon Language</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Logon Language</PARAMNAME>
+								<PARENTTREE>RSYST-LANGU|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/txtRSYST-LANGU</Id>
+								<Text>EN</Text>
+								<Type>GuiTextField</Type>
+								<LeftLabel>Logon Language</LeftLabel>
+								<Name>RSYST-LANGU</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiTextField</TAG>
+								<X>212</X>
+								<Y>308</Y>
+								<CX>29</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>220|316|29|25</BOUNDINGRECT>
+								<TITLE>GuiTextField - EN</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiTextField</CONTROLTYPE>
+								<PREFIX>ed</PREFIX>
+								<TEXT>EN</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Logon Language</PARAMNAME>
+								<PARENTTREE>RSYST-LANGU|usr|wnd[0]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<Id>sbar</Id>
+						<Type>GuiStatusbar</Type>
+						<Name>sbar</Name>
+						<Changeable>false</Changeable>
+						<ContainerType>true</ContainerType>
+						<Deepness>1</Deepness>
+						<TAG>GuiStatusbar</TAG>
+						<X>8</X>
+						<Y>992</Y>
+						<CX>1904</CX>
+						<CY>40</CY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>16|1000|1904|40</BOUNDINGRECT>
+						<TITLE>GuiStatusbar</TITLE>
+						<NAMEKEY>Name</NAMEKEY>
+						<CONTROLTYPE>GuiStatusbar</CONTROLTYPE>
+						<PREFIX />
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME>GuiStatusbar</PARAMNAME>
+						<PARENTTREE>sbar|wnd[0]</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+						<ISPREFERRED>False</ISPREFERRED>
+					</CTX_PROPS>
+				</ITEM>
+			</CHILDREN>
+		</ITEM>
+	</CHILDREN>
+</PAGE>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConteXtorStudio Version="Studio V3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XsdStudio.xsd">
+  <PROCESSUS>
+		<PROCESS Name="GLOBAL" Key="NoKey" Comment="Global Processus" >
+      <_DECLAREVAR>
+        <STRUCTUREDON Name="GLOBAL">
+        </STRUCTUREDON>
+      </_DECLAREVAR>
+      <SCRIPTS/>
+      <RESOURCES/>
+    </PROCESS>
+	</PROCESSUS>
+	<APPLICATIONS>
+		<APPLI Name="HunanTobacco">
+		</APPLI>
+	</APPLICATIONS>
+</ConteXtorStudio>

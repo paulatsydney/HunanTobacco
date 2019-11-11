@@ -1,0 +1,2 @@
+﻿{"ts":"11:25:52.512","ctx":"Action","action":"ctx.log","params":["Get amount value: 11.11.2019",0],"verb":"LOGMESS","parentId":138}
+{"ts":"11:29:51.114","ctx":"Action","action":"ctx.log","params":["Get amount value: 11.11.2019",0],"verb":"LOGMESS","parentId":175}

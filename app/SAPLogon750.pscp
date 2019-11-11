@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConteXtorStudio Version="StudioReco V1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" noNamespaceSchemaLocation="XsdStudio.xsd">
+	<PROCESSUS>
+		<PROCESS Name="GLOBAL" Key="NoKey" Comment="Global Processus">
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="GLOBAL" />
+			</_DECLAREVAR>
+			<SCRIPTS />
+			<RESOURCES />
+		</PROCESS>
+	</PROCESSUS>
+	<APPLICATIONS>
+		<APPLI Name="SAPLogon750" CtxtId="a42ee139-5efd-41c3-8966-1a7ae67eb458" Nature="UIAUTOMATION" TechnoSDK="V3" Sync="0" PendingDelay="0">
+			<CAPTURE Name="APPLI_SAPLogon750_1" CtxtId="1" Techno="UIAutomation" />
+			<SCRIPTS />
+			<CRITERE>
+				<EXE Scan="Full"><![CDATA[SAPLOGON.EXE]]></EXE>
+			</CRITERE>
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="SAPLogon750" />
+			</_DECLAREVAR>
+			<_ECRANS>
+				<PAGE Name="pWindowSAPLogon75" Comment="Window - SAP Logon 750" CtxtId="61d0fb62-1b13-4888-85a6-aa8282e00a3c" SubpagesType="Multiple" RefreshMode="Window">
+					<CRITERE>
+						<Name Scan="Full"><![CDATA[SAP Logon 750]]></Name>
+					</CRITERE>
+					<TRACK_EVENTS>
+						<TRACK_EVENT Name="REFRESH(WINDOWOPENED(DESCENDANTS))" />
+					</TRACK_EVENTS>
+					<OBJETS>
+						<OBJET Name="stQKXPUBLIC" CtxtId="e5da6bee-71e1-4863-ad06-c74c2d64addb" SpecIndex="1">
+							<CRITERE>
+								<TAG Name="Text" Scope="All" CapturedPos="1.R0R11R0R1R0R0R0R0R0R8R0">
+									<ATT Name="Value">
+										<VALUE Scan="Full"><![CDATA[QKX [PUBLIC]]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_WindowSAPLogon75_1045180_1" Comment="Window - SAP Logon 750" CtxtId="1" Techno="UIAutomation" CapturedPos="1.R0" Timestamp="11/11/2019 10:45:22" MaskRectangle="0|0|750|728" />
+				</PAGE>
+				<PAGE Name="pSAP" Comment="GuiMainWindow - SAP" CtxtId="b1029b7e-a131-42fc-92ab-8e94403c1b7c" CustomType="GuiMainWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Text Scan="Full"><![CDATA[SAP]]></Text>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="edUser" CtxtId="26b8e37b-dd3a-4769-960d-38bbf8c08e9b" CustomType="GuiTextField" SpecIndex="1">
+							<CRITERE>
+								<TAG Name="GuiTextField" Scope="All" CapturedPos="2.R0R4R5">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[RSYST-BNAME]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="oPassword" CtxtId="5ffaf575-7b63-4200-8fe2-a0e68b7b9dd6" CustomType="GuiPasswordField" SpecIndex="2">
+							<CRITERE>
+								<TAG Name="GuiPasswordField" Scope="All" CapturedPos="2.R0R4R7">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[RSYST-BCODE]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_SAP_1046080_1" Comment="GuiMainWindow - SAP" CtxtId="2" Techno="SAPGUI" CapturedPos="2.R0" Timestamp="11/11/2019 10:46:10" MaskRectangle="0|0|1936|1056" />
+				</PAGE>
+				<PAGE Name="pSAPEasyAccess" Comment="GuiMainWindow - SAP Easy Access" CtxtId="1375f5d2-7b40-4eba-a518-44f46ba0062a" CustomType="GuiMainWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Text Scan="Full"><![CDATA[SAP Easy Access]]></Text>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="oGuiOkCodeField" CtxtId="51dd43f9-7c64-4fcd-b6ee-9a8e36e766ae" CustomType="GuiOkCodeField">
+							<CRITERE>
+								<TAG Name="GuiOkCodeField" Scope="All" CapturedPos="3.R0R1R4">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[okcd]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_SAPEasyAccess_1047182_1" Comment="GuiMainWindow - SAP Easy Access" CtxtId="3" Techno="SAPGUI" CapturedPos="3.R0" Timestamp="11/11/2019 10:47:22" MaskRectangle="0|0|1936|1056" />
+				</PAGE>
+				<PAGE Name="pEnterIncomingInvoic" Comment="GuiMainWindow - Enter Incoming Invoice: Company Code 0001" CtxtId="af0c6599-b078-4ba8-982a-b909eec27e78" CustomType="GuiMainWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Text Scan="Part"><![CDATA[Enter Incoming Invoice: Company Code]]></Text>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="edPostingDate" CtxtId="5b2d101e-301c-4898-adaf-078d4f5cd6b5" CustomType="GuiCTextField">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="4.R0R4R9R0R0R0R5">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[INVFO-BUDAT]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="edAmount" CtxtId="b19f454f-96f7-430c-bcc1-c411a8a74ab4" CustomType="GuiTextField">
+							<CRITERE>
+								<TAG Name="GuiTextField" Scope="All" CapturedPos="4.R0R4R9R0R0R0R7">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[INVFO-WRBTR]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_EnterIncomingInvoic_1048279_1" Comment="GuiMainWindow - Enter Incoming Invoice: Company Code 0001" CtxtId="4" Techno="SAPGUI" CapturedPos="4.R0" Timestamp="11/11/2019 10:48:33" MaskRectangle="0|0|1936|1056" />
+				</PAGE>
+				<PAGE Name="pEnterCompanyCode" Comment="GuiModalWindow - Enter Company Code" CtxtId="28a5de59-8c53-4d39-b95e-5e44298543e3" CustomType="GuiModalWindow" Nature="SAPGUI" SubpagesType="Multiple" RefreshMode="No">
+					<CRITERE>
+						<Text Scan="Full"><![CDATA[Enter Company Code]]></Text>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="edCompanyCode" CtxtId="93ac857d-f1c1-4d7e-9121-b8bce1cafacf" CustomType="GuiCTextField">
+							<CRITERE>
+								<TAG Name="GuiCTextField" Scope="All" CapturedPos="5.R0R1R1">
+									<ATT Name="Name">
+										<VALUE Scan="Full"><![CDATA[BKPF-BUKRS]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btContinue" CtxtId="2598bc08-3b45-4c63-88c1-25495293b8e8" CustomType="GuiButton">
+							<CRITERE>
+								<TAG Name="GuiButton" Scope="All" CapturedPos="5.R0R0R0">
+									<ATT Name="Text">
+										<VALUE Scan="Full"><![CDATA[Continue]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_EnterCompanyCode_1118401_1" Comment="GuiModalWindow - Enter Company Code" CtxtId="5" Techno="SAPGUI" CapturedPos="5.R0" Timestamp="11/11/2019 11:18:40" MaskRectangle="0|0|310|210" />
+				</PAGE>
+			</_ECRANS>
+			<PATH><![CDATA[C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe]]></PATH>
+		</APPLI>
+	</APPLICATIONS>
+</ConteXtorStudio>

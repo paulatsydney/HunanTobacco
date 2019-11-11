@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+	<Identification>
+		<Version Value="1.0.2.113"/>
+	</Identification>
+	<Properties>
+		<Property Name="projectFile" Value="HunanTobacco.debug.psc"/>
+		<Property Name="projectVersion" Value="1.0"/>
+		<Property Name="projectName" Value="HunanTobacco"/>
+		<Property Name="projectId" Value="f8f9e567-d2ad-4c18-a67f-ea36442e5832"/>
+		<Property Name="projectDate" Value="11/11/2019"/>
+		<Property Name="projectLabel" Value="Hunan Tobacco Automation"/>
+		<Property Name="projectClient" Value="Hunan Tobacco"/>
+		<Property Name="licenceURL" Value=""/>
+		<Property Name="archiveFile" Value=""/>
+		<Property Name="productVersion" Value="1.0.2.113"/>
+		<Property Name="sdkVersion" Value="1.0.2.113"/>
+		<Property Name="validity" Value=""/>
+		<Property Name="cyphering" Value="0"/>
+		<Property Name="compression" Value="1"/>
+	</Properties>
+	<Properties Name="scenario0">
+		<Property Name="appliName" Value="GLOBAL" Type="1"/>
+		<Property Name="scenario" Value="Logon" Type="1"/>
+		<Property Name="name" Value="" Type="1"/>
+		<Property Name="id" Value="35b49d88-50a7-4109-a07c-2252ce3aa852" Type="1"/>
+		<Property Name="timeout" Value="600" Type="1"/>
+		<Property Name="task" Value="1" Type="1"/>
+	</Properties>
+	<Keys Name="scenario0">
+	</Keys>
+	<Properties Name="scenario1">
+		<Property Name="appliName" Value="GLOBAL" Type="1"/>
+		<Property Name="scenario" Value="InvoiceVerification" Type="1"/>
+		<Property Name="name" Value="" Type="1"/>
+		<Property Name="id" Value="de531431-184c-4625-86dc-ff79ef17746f" Type="1"/>
+		<Property Name="timeout" Value="600" Type="1"/>
+		<Property Name="task" Value="1" Type="1"/>
+	</Properties>
+	<Keys Name="scenario1">
+	</Keys>
+	<Properties Name="authentication">
+		<Property Name="result" Value="MIIBJwYJKoZIhvcNAQcCoIIBGDCCARQCAQExDzANBgkqhkiG9w0BAQUFADAvBgkq
+hkiG9w0BBwGgIgQgQwB0AHgAdABEAGUAZgBhAHUAbAB0AE0AYQByAGsAAAAxgcww
+gckCAQEwJDAcMRowGAYDVQQDExFOTyBDRVJUIFNJR05BVFVSRQIEEjRWeDANBgkq
+hkiG9w0BAQUFADAMBggqhkiG9w0DBAUABIGAfZJAFBsRSkVyGX3NSNktGLNGNfhX
+nIss0swnskDSEktTdiDO7eZZR1UASMJMug6kIlULx46+WetNhj9vNah++ytv2c7o
+9PBiwLZ6d0NBmVLIHCP6hKcWRksLYM2/xPHgPRTQSTU57WA2G5OOLmgB8S8AtfGf
+6L9TT3r4hyuitPY=
+" Type="1"/>
+	</Properties>
+	<Keys Name="authentication">
+	</Keys>
+	<UpdatePackages>
+	</UpdatePackages>
+	<KeyNames Value="" Type="32771"/>
+	<KeyContent Value="" Type="32771"/>
+	<KeyProps Value="23b731a9b2db4dc2b9e2c8f237fc5e57" Type="32771"/>
+</doc>

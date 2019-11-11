@@ -1,0 +1,6 @@
+﻿<APPLI Techno="UIAutomation" Name="APPLI_SAPLogon750_1" ParamName="SAP Logon 750">
+	<PROPERTIES>
+		<EXE>SAPLOGON.EXE</EXE>
+		<TITLE>SAP Logon 750</TITLE>
+	</PROPERTIES>
+</APPLI>

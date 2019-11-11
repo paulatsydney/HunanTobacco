@@ -1,0 +1,225 @@
+﻿<PAGE Techno="SAPGUI" Name="PAGE_EnterCompanyCode_1118401_1" ProcessName="SAPLOGON.EXE" ParamName="Enter Company Code" ParentTree="wnd[1]">
+	<PROPERTIES>
+		<Text>Enter Company Code</Text>
+		<Type>GuiModalWindow</Type>
+		<Name>wnd[1]</Name>
+		<Changeable>true</Changeable>
+		<ContainerType>true</ContainerType>
+		<Deepness>0</Deepness>
+		<TAG>GuiModalWindow</TAG>
+		<X>103</X>
+		<Y>441</Y>
+		<CX>310</CX>
+		<CY>210</CY>
+		<EXE>SAPLOGON.EXE</EXE>
+	</PROPERTIES>
+	<CHILDREN>
+		<ITEM>
+			<PROPERTIES>
+				<Text>Enter Company Code</Text>
+				<Type>GuiModalWindow</Type>
+				<Name>wnd[1]</Name>
+				<Changeable>true</Changeable>
+				<ContainerType>true</ContainerType>
+				<Deepness>0</Deepness>
+				<TAG>GuiModalWindow</TAG>
+				<X>103</X>
+				<Y>441</Y>
+				<CX>310</CX>
+				<CY>210</CY>
+				<EXE>SAPLOGON.EXE</EXE>
+			</PROPERTIES>
+			<CTX_PROPS>
+				<BOUNDINGRECT>0|0|310|210</BOUNDINGRECT>
+				<TITLE>GuiModalWindow - Enter Company Code</TITLE>
+				<NAMEKEY>Name</NAMEKEY>
+				<CONTROLTYPE>GuiModalWindow</CONTROLTYPE>
+				<PREFIX />
+				<TEXT>Enter Company Code</TEXT>
+				<TEXTKEY>Text</TEXTKEY>
+				<PARAMNAME>Enter Company Code</PARAMNAME>
+				<PARENTTREE>wnd[1]</PARENTTREE>
+				<ISVISIBLE>True</ISVISIBLE>
+				<ISPREFERRED>False</ISPREFERRED>
+			</CTX_PROPS>
+			<CHILDREN>
+				<ITEM>
+					<PROPERTIES>
+						<Id>tbar[0]</Id>
+						<Type>GuiToolbar</Type>
+						<Name>tbar[0]</Name>
+						<Changeable>true</Changeable>
+						<ContainerType>true</ContainerType>
+						<Deepness>1</Deepness>
+						<TAG>GuiToolbar</TAG>
+						<X>104</X>
+						<Y>610</Y>
+						<CX>308</CX>
+						<CY>40</CY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>1|169|308|40</BOUNDINGRECT>
+						<TITLE>GuiToolbar</TITLE>
+						<NAMEKEY>Name</NAMEKEY>
+						<CONTROLTYPE>GuiToolbar</CONTROLTYPE>
+						<PREFIX>tb</PREFIX>
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME>GuiToolbar</PARAMNAME>
+						<PARENTTREE>tbar[0]|wnd[1]</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+						<ISPREFERRED>False</ISPREFERRED>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<Id>tbar[0]/btn[0]</Id>
+								<Text>Continue</Text>
+								<Type>GuiButton</Type>
+								<Name>btn[0]</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiButton</TAG>
+								<X>267</X>
+								<Y>617</Y>
+								<CX>71</CX>
+								<CY>26</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>164|176|71|26</BOUNDINGRECT>
+								<TITLE>GuiButton - Continue</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiButton</CONTROLTYPE>
+								<PREFIX>bt</PREFIX>
+								<TEXT>Continue</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Continue</PARAMNAME>
+								<PARENTTREE>btn[0]|tbar[0]|wnd[1]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>tbar[0]/btn[12]</Id>
+								<Text>Cancel</Text>
+								<Type>GuiButton</Type>
+								<Name>btn[12]</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiButton</TAG>
+								<X>346</X>
+								<Y>617</Y>
+								<CX>58</CX>
+								<CY>26</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>243|176|58|26</BOUNDINGRECT>
+								<TITLE>GuiButton - Cancel</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiButton</CONTROLTYPE>
+								<PREFIX>bt</PREFIX>
+								<TEXT>Cancel</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>Cancel</PARAMNAME>
+								<PARENTTREE>btn[12]|tbar[0]|wnd[1]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<Id>usr</Id>
+						<Type>GuiUserArea</Type>
+						<Name>usr</Name>
+						<Changeable>true</Changeable>
+						<ContainerType>true</ContainerType>
+						<Deepness>1</Deepness>
+						<TAG>GuiUserArea</TAG>
+						<X>120</X>
+						<Y>498</Y>
+						<CX>276</CX>
+						<CY>96</CY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>17|57|276|96</BOUNDINGRECT>
+						<TITLE>GuiUserArea</TITLE>
+						<NAMEKEY>Name</NAMEKEY>
+						<CONTROLTYPE>GuiUserArea</CONTROLTYPE>
+						<PREFIX />
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME>GuiUserArea</PARAMNAME>
+						<PARENTTREE>usr|wnd[1]</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+						<ISPREFERRED>False</ISPREFERRED>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/lblBKPF-BUKRS</Id>
+								<Text>*Company Code</Text>
+								<Type>GuiLabel</Type>
+								<Name>BKPF-BUKRS</Name>
+								<Changeable>false</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiLabel</TAG>
+								<X>144</X>
+								<Y>518</Y>
+								<CX>159</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>41|77|159|25</BOUNDINGRECT>
+								<TITLE>GuiLabel - *Company Code</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiLabel</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>*Company Code</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>*Company Code</PARAMNAME>
+								<PARENTTREE>BKPF-BUKRS|usr|wnd[1]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Id>usr/ctxtBKPF-BUKRS</Id>
+								<Type>GuiCTextField</Type>
+								<LeftLabel>*Company Code</LeftLabel>
+								<Name>BKPF-BUKRS</Name>
+								<Changeable>true</Changeable>
+								<ContainerType>false</ContainerType>
+								<Deepness>2</Deepness>
+								<TAG>GuiCTextField</TAG>
+								<X>304</X>
+								<Y>518</Y>
+								<CX>49</CX>
+								<CY>25</CY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>201|77|49|25</BOUNDINGRECT>
+								<TITLE>GuiCTextField</TITLE>
+								<NAMEKEY>Name</NAMEKEY>
+								<CONTROLTYPE>GuiCTextField</CONTROLTYPE>
+								<PREFIX>ed</PREFIX>
+								<TEXT />
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>*Company Code</PARAMNAME>
+								<PARENTTREE>BKPF-BUKRS|usr|wnd[1]</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+								<ISPREFERRED>False</ISPREFERRED>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+			</CHILDREN>
+		</ITEM>
+	</CHILDREN>
+</PAGE>
